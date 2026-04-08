@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Management - Financial Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .metric-card.revenue {
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .metric-card.expense {
+            border-left: 4px solid #f44336;
+        }
+        
+        .metric-card.profit {
+            border-left: 4px solid #2196F3;
+        }
+        
+        .metric-card h3 {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .metric-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+        }
+        
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            height: 400px;
+        }
+        
+        canvas {
+            max-height: 350px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>🏥 Clinic Management Dashboard</h1>
+            <p>Financial & Sales Analytics | Generated: 2026-04-08 21:04:07</p>
+        </div>
+        
+        <div class="metrics">
+            <div class="metric-card revenue">
+                <h3>Total Revenue</h3>
+                <div class="metric-value">₹27,500</div>
+            </div>
+            <div class="metric-card expense">
+                <h3>Total Expenses</h3>
+                <div class="metric-value">₹14,700</div>
+            </div>
+            <div class="metric-card profit">
+                <h3>Net Profit</h3>
+                <div class="metric-value">₹12,800</div>
+            </div>
+            <div class="metric-card">
+                <h3>Profit Margin</h3>
+                <div class="metric-value">46.5%</div>
+            </div>
+        </div>
+        
+        <div class="charts">
+            <div class="chart-container">
+                <canvas id="channelChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="profitChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="trendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="profitabilityChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 Clinic Management System | Financial Analytics Dashboard</p>
+        </div>
+    </div>
+    
+    <script>
+        // Chart 1: Sales by Channel
+        const ctx1 = document.getElementById('channelChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ["Online", "Offline"],
+                datasets: [{
+                    data: [19500, 8000],
+                    backgroundColor: ['#4CAF50', '#2196F3'],
+                    borderColor: 'white',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Revenue by Sales Channel'
+                    }
+                }
+            }
+        });
+        
+        // Chart 2: Revenue vs Expenses
+        const ctx2 = document.getElementById('profitChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Total Revenue', 'Total Expenses', 'Net Profit'],
+                datasets: [{
+                    label: 'Amount (₹)',
+                    data: [27500, 14700, 12800],
+                    backgroundColor: ['#4CAF50', '#f44336', '#2196F3'],
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: 'Financial Summary'
+                    }
+                }
+            }
+        });
+        
+        // Chart 3: Daily Revenue & Expense Trend
+        const ctx3 = document.getElementById('trendChart').getContext('2d');
+        new Chart(ctx3, {
+            type: 'line',
+            data: {
+                labels: ["Nov 01", "Nov 02", "Nov 05", "Nov 08", "Nov 10", "Nov 15", "Nov 18", "Nov 22"],
+                datasets: [
+                    {
+                        label: 'Revenue',
+                        data: [5000, 3000, 4500, 2000, 6000, 3500, 5500, 2500],
+                        borderColor: '#4CAF50',
+                        backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Expenses',
+                        data: [2000, 1000, 1500, 1200, 2500, 800, 1800, 900],
+                        borderColor: '#f44336',
+                        backgroundColor: 'rgba(244, 67, 54, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Daily Revenue vs Expenses Trend'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        
+        // Chart 4: Profitability by Day
+        const ctx4 = document.getElementById('profitabilityChart').getContext('2d');
+        new Chart(ctx4, {
+            type: 'bar',
+            data: {
+                labels: ["Nov 01", "Nov 02", "Nov 05", "Nov 08", "Nov 10", "Nov 15", "Nov 18", "Nov 22"],
+                datasets: [{
+                    label: 'Daily Profit (₹)',
+                    data: [3000, 2000, 3000, 800, 3500, 2700, 3700, 1600],
+                    backgroundColor: '#2196F3',
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: 'Daily Profit Margins'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
