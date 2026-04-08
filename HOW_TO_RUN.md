@@ -24,6 +24,7 @@ Before running anything, ensure you have installed:
 ### Windows Installation
 
 #### 1. Python (Required for Python scripts & Excel generation)
+
 ```bash
 # Download: https://www.python.org/downloads/
 # Install: Accept all defaults, especially "Add Python to PATH"
@@ -34,6 +35,7 @@ pip --version
 ```
 
 #### 2. MySQL (Required for SQL database)
+
 ```bash
 # Download Community Server: https://dev.mysql.com/downloads/mysql/
 # Windows Edition: https://dev.mysql.com/downloads/windows/installer/
@@ -43,12 +45,14 @@ pip --version
 ```
 
 #### 3. Git (Required for version control)
+
 ```bash
 # Download: https://git-scm.com/download/win
 # Install with all defaults
 ```
 
 #### 4. Excel or LibreOffice Calc (For viewing spreadsheet)
+
 - Excel: Usually pre-installed on Windows
 - LibreOffice Calc: Free alternative (https://www.libreoffice.org/)
 
@@ -57,6 +61,7 @@ pip --version
 ## ⚙️ SETUP
 
 ### Clone from GitHub
+
 ```bash
 # Open PowerShell/Command Prompt
 cd C:\YourFolder  (or any location)
@@ -69,6 +74,7 @@ cd Hotel-Management
 ```
 
 ### Install Python Dependencies
+
 ```bash
 pip install openpyxl  # For Excel generation
 ```
@@ -131,6 +137,7 @@ SOURCE C:\path\to\SQL\04_Clinic_Queries.sql;
 ### Verify SQL Success
 
 You should see results for all tables:
+
 ```
 ✓ users table: 2 records (Ravi, Arun)
 ✓ bookings table: 3 records
@@ -178,6 +185,7 @@ python Python/03_Data_Analysis.py
 ### Individual Script Details
 
 #### Script 1: Time Converter (01_Time_Converter.py)
+
 ```bash
 python Python/01_Time_Converter.py
 
@@ -193,6 +201,7 @@ python Python/01_Time_Converter.py
 ```
 
 #### Script 2: Remove Duplicates (02_Remove_Duplicates.py)
+
 ```bash
 python Python/02_Remove_Duplicates.py
 
@@ -209,6 +218,7 @@ python Python/02_Remove_Duplicates.py
 ```
 
 #### Script 3: Data Analysis (03_Data_Analysis.py)
+
 ```bash
 python Python/03_Data_Analysis.py
 
@@ -271,6 +281,7 @@ start Spreadsheets/Ticket_Analysis.xlsx
 ### Verify Excel Formulas
 
 In `feedbacks` sheet:
+
 - **Column C**: `=VLOOKUP(B2,ticket!A:B,2,FALSE)` - Retrieves dates from ticket sheet
 - **Column E**: `=IF(INT(C2)=INT(D2),"Yes","No")` - Checks same day
 - **Column F**: `=IF(HOUR(C2)=HOUR(D2),"Yes","No")` - Checks same hour
@@ -318,6 +329,7 @@ start Dashboard/Clinic_Dashboard.html
 ### What You'll See
 
 **Hotel Dashboard**:
+
 - 4 interactive charts
 - Bookings by Guest (Doughnut chart)
 - Revenue by Guest (Bar chart)
@@ -326,6 +338,7 @@ start Dashboard/Clinic_Dashboard.html
 - Key metrics (Total bookings, revenue, guests, average)
 
 **Clinic Dashboard**:
+
 - 4 interactive charts
 - Revenue by Channel (Pie chart: Online vs Offline)
 - Financial Summary (Revenue, Expenses, Profit)
@@ -340,6 +353,7 @@ start Dashboard/Clinic_Dashboard.html
 ### Python Issues
 
 #### "python: command not found"
+
 ```bash
 # Python not in PATH; install from https://www.python.org/downloads/
 # Make sure to check "Add Python to PATH" during installation
@@ -347,11 +361,13 @@ start Dashboard/Clinic_Dashboard.html
 ```
 
 #### "openpyxl module not found"
+
 ```bash
 pip install openpyxl
 ```
 
 #### Script runs but shows errors
+
 ```bash
 # Check Python version (must be 3.8+)
 python --version
@@ -363,12 +379,14 @@ python -u Python/01_Time_Converter.py
 ### SQL Issues
 
 #### "MySQL: command not found"
+
 ```bash
 # Use MySQL Workbench GUI instead (recommended)
 # Or install MySQL from: https://dev.mysql.com/downloads/mysql/
 ```
 
 #### "Access denied" error
+
 ```bash
 # Make sure MySQL is running:
 # Windows Services → Search "Services" → Find "MySQL80" → Start it
@@ -377,6 +395,7 @@ python -u Python/01_Time_Converter.py
 ```
 
 #### "No such file or directory"
+
 ```bash
 # Make sure you're in the correct folder
 cd C:\path\to\Hotel-Management
@@ -386,6 +405,7 @@ dir  # Should see SQL, Python, Spreadsheets, Dashboard folders
 ### Dashboard Issues
 
 #### "Chart.js not loading"
+
 ```bash
 # Dashboards need internet to load Chart.js from CDN
 # Ensure you have internet connection
@@ -393,6 +413,7 @@ dir  # Should see SQL, Python, Spreadsheets, Dashboard folders
 ```
 
 #### "Tooltip not showing"
+
 ```bash
 # Hover over chart elements to see tooltips
 # If not working, check:
@@ -488,6 +509,7 @@ After running everything, verify:
 ## 📊 SAMPLE EXPECTED OUTPUTS
 
 ### SQL Query Results
+
 ```
 Q1: Last Booked Room
 booking_id | user_id | booking_date
@@ -503,6 +525,7 @@ booking_id | total_bill
 ```
 
 ### Python Output
+
 ```
 convert_minutes(130) = "2 hrs 10 minutes" ✓
 remove_duplicates("programming") = "progamin" ✓
@@ -510,6 +533,7 @@ DataAnalyzer: 5 records analyzed, exported to JSON & CSV ✓
 ```
 
 ### Excel Summary
+
 ```
 Feedback Summary:
 - Total Records: 5
@@ -519,6 +543,7 @@ Feedback Summary:
 ```
 
 ### Dashboard Metrics
+
 ```
 Hotel:
 - Total Bookings: 3

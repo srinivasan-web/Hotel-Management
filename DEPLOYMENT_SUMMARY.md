@@ -26,6 +26,7 @@ Your complete Hotel Management portfolio project has been successfully deployed!
 👉 **https://github.com/srinivasan-web/Hotel-Management**
 
 ### Clone on Any Machine
+
 ```bash
 git clone https://github.com/srinivasan-web/Hotel-Management.git
 cd Hotel-Management
@@ -36,40 +37,45 @@ cd Hotel-Management
 ## 📦 WHAT'S BEEN UPLOADED (16 Files)
 
 ### 📄 Documentation (4 Files)
-| File | Lines | Purpose |
-|------|-------|---------|
-| **README.md** | 3,015 | Complete project guide, setup, examples |
-| **HOW_TO_RUN.md** | 593 | Step-by-step execution guide |
-| **COMPLETION_SUMMARY.md** | 650 | Project statistics, verification checklist |
-| **QUICK_START.md** | 170 | One-page quick reference |
+
+| File                      | Lines | Purpose                                    |
+| ------------------------- | ----- | ------------------------------------------ |
+| **README.md**             | 3,015 | Complete project guide, setup, examples    |
+| **HOW_TO_RUN.md**         | 593   | Step-by-step execution guide               |
+| **COMPLETION_SUMMARY.md** | 650   | Project statistics, verification checklist |
+| **QUICK_START.md**        | 170   | One-page quick reference                   |
 
 ### 🗄️ SQL Database (4 Files)
-| File | Purpose |
-|------|---------|
-| **01_Hotel_Schema_Setup.sql** | Hotel database schema (users, bookings, items, relations) |
-| **02_Hotel_Queries.sql** | 5 complex hotel queries (JOINs, window functions) |
-| **03_Clinic_Schema_Setup.sql** | Clinic database schema (sales, expenses) |
-| **04_Clinic_Queries.sql** | 5 financial analysis queries |
+
+| File                           | Purpose                                                   |
+| ------------------------------ | --------------------------------------------------------- |
+| **01_Hotel_Schema_Setup.sql**  | Hotel database schema (users, bookings, items, relations) |
+| **02_Hotel_Queries.sql**       | 5 complex hotel queries (JOINs, window functions)         |
+| **03_Clinic_Schema_Setup.sql** | Clinic database schema (sales, expenses)                  |
+| **04_Clinic_Queries.sql**      | 5 financial analysis queries                              |
 
 ### 🐍 Python Scripts (3 Files)
-| File | Purpose | LOC |
-|------|---------|-----|
-| **01_Time_Converter.py** | Convert minutes to hours format | 913 |
-| **02_Remove_Duplicates.py** | 3 algorithms with performance analysis | 2,247 |
-| **03_Data_Analysis.py** | DataAnalyzer class with export features | 758 |
+
+| File                        | Purpose                                 | LOC   |
+| --------------------------- | --------------------------------------- | ----- |
+| **01_Time_Converter.py**    | Convert minutes to hours format         | 913   |
+| **02_Remove_Duplicates.py** | 3 algorithms with performance analysis  | 2,247 |
+| **03_Data_Analysis.py**     | DataAnalyzer class with export features | 758   |
 
 ### 📊 Spreadsheets (2 Files)
-| File | Purpose |
-|------|---------|
+
+| File                     | Purpose                                   |
+| ------------------------ | ----------------------------------------- |
 | **Ticket_Analysis.xlsx** | Excel with VLOOKUP, IF, COUNTIFS formulas |
-| **create_excel.py** | Script to generate Excel file |
+| **create_excel.py**      | Script to generate Excel file             |
 
 ### 📈 Dashboards (3 Files)
-| File | Purpose |
-|------|---------|
-| **Hotel_Dashboard.html** | 4 interactive charts (bookings, revenue, items, trends) |
-| **Clinic_Dashboard.html** | 4 financial charts (revenue, expenses, profit, trends) |
-| **generate_dashboards.py** | Script to generate HTML dashboards |
+
+| File                       | Purpose                                                 |
+| -------------------------- | ------------------------------------------------------- |
+| **Hotel_Dashboard.html**   | 4 interactive charts (bookings, revenue, items, trends) |
+| **Clinic_Dashboard.html**  | 4 financial charts (revenue, expenses, profit, trends)  |
+| **generate_dashboards.py** | Script to generate HTML dashboards                      |
 
 ---
 
@@ -92,24 +98,28 @@ cat README.md  # OR open in editor
 ## ✨ KEY FEATURES NOW LIVE
 
 ### SQL Implementation ✅
+
 - 2 complete database schemas (Hotel + Clinic)
 - 7 complex queries with real business logic
 - Normalized table design with foreign keys
 - Ready to run in MySQL Workbench
 
 ### Excel Analysis ✅
+
 - VLOOKUP cross-sheet reference formulas
 - IF conditional logic for date/time comparisons
 - COUNTIFS multi-criteria counting
 - Professional formatting with headers
 
 ### Python Utilities ✅
+
 - Time converter with edge case handling
 - 3 duplicate removal algorithms (O(n²) to O(n))
 - DataAnalyzer with aggregation & export
 - ~1,900 lines of production-quality code
 
 ### Interactive Dashboards ✅
+
 - 8 interactive Chart.js visualizations
 - Responsive design (mobile-friendly)
 - Real-time data display
@@ -144,6 +154,7 @@ Your project has 4 commits:
 ## 🎯 HOW TO RUN (Quick Reference)
 
 ### 1. Setup SQL Database
+
 ```bash
 # Open MySQL Workbench
 # File → Open SQL Script → SQL/01_Hotel_Schema_Setup.sql → Execute
@@ -151,6 +162,7 @@ Your project has 4 commits:
 ```
 
 ### 2. Run Python Scripts
+
 ```bash
 python Python/01_Time_Converter.py
 python Python/02_Remove_Duplicates.py
@@ -158,12 +170,14 @@ python Python/03_Data_Analysis.py
 ```
 
 ### 3. View Excel
+
 ```bash
 # Open directly or generate:
 python Spreadsheets/create_excel.py
 ```
 
 ### 4. View Dashboards
+
 ```bash
 python Dashboard/generate_dashboards.py
 # Then open Hotel_Dashboard.html and Clinic_Dashboard.html
@@ -203,26 +217,28 @@ Accessibility:            PUBLIC (anyone can view/clone)
 
 This project demonstrates:
 
-| Skill | Level | Evidence |
-|-------|-------|----------|
-| SQL | Advanced | Window functions, complex JOINs, aggregation |
-| Excel | Intermediate-Advanced | VLOOKUP, IF, COUNTIFS formulas |
-| Python | Intermediate-Advanced | OOP, algorithms, performance optimization |
-| Web Development | Intermediate | Responsive HTML, CSS, Chart.js |
-| Documentation | Professional | 4,000+ lines of clear, detailed docs |
-| Version Control | Professional | Git workflow, meaningful commits |
-| Problem Solving | Professional | Real-world scenarios, business logic |
+| Skill           | Level                 | Evidence                                     |
+| --------------- | --------------------- | -------------------------------------------- |
+| SQL             | Advanced              | Window functions, complex JOINs, aggregation |
+| Excel           | Intermediate-Advanced | VLOOKUP, IF, COUNTIFS formulas               |
+| Python          | Intermediate-Advanced | OOP, algorithms, performance optimization    |
+| Web Development | Intermediate          | Responsive HTML, CSS, Chart.js               |
+| Documentation   | Professional          | 4,000+ lines of clear, detailed docs         |
+| Version Control | Professional          | Git workflow, meaningful commits             |
+| Problem Solving | Professional          | Real-world scenarios, business logic         |
 
 ---
 
 ## 📞 SHARING WITH EMPLOYERS/INTERVIEWERS
 
 ### GitHub URL to Share
+
 ```
 https://github.com/srinivasan-web/Hotel-Management
 ```
 
 ### Talking Points
+
 1. **End-to-End Implementation** - Not just theory, actual working code
 2. **Multiple Technologies** - SQL, Excel, Python, Web all integrated
 3. **Real-World Scenarios** - Hotel and clinic business logic
@@ -251,7 +267,7 @@ To verify everything is on GitHub:
 This project qualifies you for:
 
 - ✅ Junior Data Analyst positions
-- ✅ Business Analyst internships  
+- ✅ Business Analyst internships
 - ✅ Data Engineer entry-level roles
 - ✅ Freelance data projects
 - ✅ Bootcamp final project showcase
@@ -262,17 +278,20 @@ This project qualifies you for:
 ## 🚀 NEXT STEPS
 
 ### Immediate (This Week)
+
 1. ✅ Test everything works (follow HOW_TO_RUN.md)
 2. ✅ Update LinkedIn with project link
 3. ✅ Share repository with network
 
 ### Short Term (This Month)
+
 1. Record 5-10 minute walkthrough video (bonus for portfolio)
 2. Write a Medium article about the project
 3. Add to portfolio website/resume
 4. Start applying to junior analyst roles
 
 ### Long Term (Optional Enhancements)
+
 1. Add API layer (Flask/FastAPI)
 2. Connect to real-time databases
 3. Implement advanced analytics (machine learning)
@@ -297,7 +316,7 @@ Unlike typical portfolio projects:
 ❌ **Not just theory** → Working, tested implementation  
 ❌ **Not just basics** → Advanced features (window functions, OOP)  
 ❌ **Poorly documented** → 4,000+ lines of professional docs  
-❌ **Sloppy code** → Error handling, validation, design patterns  
+❌ **Sloppy code** → Error handling, validation, design patterns
 
 ✅ **This project has it all** - Ready for professional portfolio
 
@@ -341,6 +360,6 @@ Unlike typical portfolio projects:
 **Project Status**: ✅ Deployed  
 **Created**: April 8, 2026  
 **Repository**: https://github.com/srinivasan-web/Hotel-Management  
-**Visibility**: PUBLIC  
+**Visibility**: PUBLIC
 
 **Congratulations on completing your portfolio project! 🌟**
