@@ -7,6 +7,7 @@
 ## 1️⃣ SETUP SQL DATABASE
 
 ### MySQL Command Line
+
 ```bash
 # Connect to MySQL
 mysql -u root -p
@@ -19,6 +20,7 @@ SOURCE C:\path\to\SQL\03_Clinic_Schema_Setup.sql;
 ```
 
 ### MySQL Workbench (GUI)
+
 1. Open MySQL Workbench
 2. File → Open SQL Script → `01_Hotel_Schema_Setup.sql`
 3. Click ⚡ Execute
@@ -86,6 +88,7 @@ git push -u origin main
 ## 📋 QUICK VERIFICATION
 
 ### ✅ SQL Test
+
 ```sql
 -- In MySQL:
 SELECT COUNT(*) as users FROM users;               -- Should be: 2
@@ -94,12 +97,14 @@ SELECT COUNT(*) as items FROM items;               -- Should be: 3
 ```
 
 ### ✅ Excel Test
+
 - Open `Spreadsheets/Ticket_Analysis.xlsx`
 - Check: VLOOKUP formula in column C (should show dates)
 - Check: IF formulas in columns E & F (should show Yes/No)
 - Check: Summary row shows count of resolved tickets
 
 ### ✅ Python Test
+
 ```bash
 python Python/01_Time_Converter.py     # Should output: "2 hrs 10 minutes"
 python Python/02_Remove_Duplicates.py  # Should output: "progamin"
@@ -107,6 +112,7 @@ python Python/03_Data_Analysis.py      # Should show reports and exports
 ```
 
 ### ✅ Dashboard Test
+
 - Open `Hotel_Dashboard.html` → Should show 4 interactive charts
 - Open `Clinic_Dashboard.html` → Should show 4 interactive charts
 - Both should display metrics and be responsive
@@ -141,14 +147,14 @@ PlatinumRx_Assignment/
 
 ## 🛠 TROUBLESHOOTING
 
-| Issue | Solution |
-|-------|----------|
-| No Python | Install from: https://www.python.org/downloads/ |
-| No MySQL | Install from: https://dev.mysql.com/downloads/mysql/ |
-| openpyxl error | Run: `pip install openpyxl` |
+| Issue           | Solution                                                      |
+| --------------- | ------------------------------------------------------------- |
+| No Python       | Install from: https://www.python.org/downloads/               |
+| No MySQL        | Install from: https://dev.mysql.com/downloads/mysql/          |
+| openpyxl error  | Run: `pip install openpyxl`                                   |
 | Dashboard blank | Check browser console (F12), verify internet for Chart.js CDN |
-| Git not found | Install from: https://git-scm.com/download/win |
-| SQL errors | Ensure MySQL is running: `net start MySQL80` |
+| Git not found   | Install from: https://git-scm.com/download/win                |
+| SQL errors      | Ensure MySQL is running: `net start MySQL80`                  |
 
 ---
 
@@ -158,7 +164,7 @@ PlatinumRx_Assignment/
 ✅ **Excel**: VLOOKUP, IF, COUNTIFS formulas  
 ✅ **Python**: OOP, algorithms, data processing  
 ✅ **Dashboards**: Interactive Chart.js visualizations  
-✅ **Portfolio**: Professional GitHub repository  
+✅ **Portfolio**: Professional GitHub repository
 
 **You have everything needed for a junior data analyst role!** 🚀
 

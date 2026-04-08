@@ -10,19 +10,20 @@
 
 A **complete, professional-grade data analyst portfolio project** with end-to-end implementation:
 
-| Component | Files | Status | Key Features |
-|-----------|-------|--------|--------------|
-| **SQL** | 4 files | ✅ | 7 complex queries, 2 databases, normalization |
-| **Excel** | 2 files | ✅ | VLOOKUP, IF, COUNTIFS with 5 sample records |
-| **Python** | 3 files | ✅ | Time converter, deduplication, data analyzer |
-| **Dashboard** | 2 files | ✅ | Interactive Chart.js visualizations |
-| **Documentation** | README.md | ✅ | 3000+ lines, complete setup guide |
+| Component         | Files     | Status | Key Features                                  |
+| ----------------- | --------- | ------ | --------------------------------------------- |
+| **SQL**           | 4 files   | ✅     | 7 complex queries, 2 databases, normalization |
+| **Excel**         | 2 files   | ✅     | VLOOKUP, IF, COUNTIFS with 5 sample records   |
+| **Python**        | 3 files   | ✅     | Time converter, deduplication, data analyzer  |
+| **Dashboard**     | 2 files   | ✅     | Interactive Chart.js visualizations           |
+| **Documentation** | README.md | ✅     | 3000+ lines, complete setup guide             |
 
 ---
 
 ## 📁 DELIVERABLES CHECKLIST
 
 ### ✅ SQL Implementation (4 Files)
+
 - [x] `SQL/01_Hotel_Schema_Setup.sql` (637 lines)
   - ✓ 4 normalized tables (users, bookings, items, booking_commercials)
   - ✓ Foreign key relationships
@@ -52,6 +53,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
   - ✓ Bonus: Expense analysis and percentage breakdown
 
 ### ✅ Excel Implementation (2 Files)
+
 - [x] `Spreadsheets/Ticket_Analysis.xlsx` (6,208 bytes)
   - ✓ Sheet 1: `ticket` with 5 sample records
     - ticket_id, created_at, updated_at, status
@@ -69,6 +71,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
   - ✓ Reproducible generation script
 
 ### ✅ Python Implementation (3 Files)
+
 - [x] `Python/01_Time_Converter.py` (913 lines)
   - ✓ Main function: Convert minutes to "X hrs Y minutes" format
   - ✓ Input validation (type & range checking)
@@ -97,6 +100,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
   - ✓ Complete docstrings and error handling
 
 ### ✅ Dashboard Implementation (2 Files)
+
 - [x] `Dashboard/Hotel_Dashboard.html` (338 lines)
   - ✓ Responsive layout with CSS Grid
   - ✓ 4 interactive Chart.js visualizations:
@@ -127,6 +131,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
   - ✓ Error handling and status messages
 
 ### ✅ Documentation (1 File)
+
 - [x] `README.md` (3,015 lines / 454 KB)
   - ✓ Complete project overview
   - ✓ Quick start guide (5 steps)
@@ -144,6 +149,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
   - ✓ Professional formatting with table of contents
 
 ### ✅ Git Setup (Initialized)
+
 - [x] Git repository initialized at project root
 - [x] All 13 files tracked and committed
 - [x] Initial commit message: "Initial commit: Complete PlatinumRx Assignment with SQL, Excel, Python, Dashboards, and Documentation"
@@ -154,27 +160,28 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 
 ## 📊 PROJECT STATISTICS
 
-| Metric | Count |
-|--------|-------|
-| **Total Files** | 13 |
-| **SQL Files** | 4 |
-| **Excel Files** | 2 |
-| **Python Files** | 3 |
-| **Dashboard Files** | 2 |
-| **Total Lines of Code** | ~1,200 |
-| **Documentation Lines** | 3,015 |
-| **Total Project Size** | ~3.1 MB |
-| **Database Tables** | 6 |
-| **SQL Queries** | 7 |
-| **Excel Formulas** | 4 |
-| **Python Functions** | 15+ |
-| **Web Charts** | 8 |
+| Metric                  | Count   |
+| ----------------------- | ------- |
+| **Total Files**         | 13      |
+| **SQL Files**           | 4       |
+| **Excel Files**         | 2       |
+| **Python Files**        | 3       |
+| **Dashboard Files**     | 2       |
+| **Total Lines of Code** | ~1,200  |
+| **Documentation Lines** | 3,015   |
+| **Total Project Size**  | ~3.1 MB |
+| **Database Tables**     | 6       |
+| **SQL Queries**         | 7       |
+| **Excel Formulas**      | 4       |
+| **Python Functions**    | 15+     |
+| **Web Charts**          | 8       |
 
 ---
 
 ## ✨ KEY FEATURES
 
 ### SQL
+
 - ✅ Complex multi-table JOINs
 - ✅ GROUP BY & HAVING aggregation
 - ✅ Window functions (RANK() OVER)
@@ -183,6 +190,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 - ✅ Real-world business logic
 
 ### Excel
+
 - ✅ VLOOKUP for cross-sheet data retrieval
 - ✅ IF statements for conditional logic
 - ✅ COUNTIFS for multi-criteria counting
@@ -190,6 +198,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 - ✅ Professional formatting
 
 ### Python
+
 - ✅ Object-oriented programming
 - ✅ Input validation & error handling
 - ✅ Algorithm optimization & benchmarking
@@ -197,6 +206,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 - ✅ Comprehensive test coverage
 
 ### Dashboards
+
 - ✅ Interactive Chart.js visualizations
 - ✅ Responsive web design
 - ✅ Professional styling
@@ -208,6 +218,7 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 ## 🚀 NEXT STEPS: PUSH TO GITHUB
 
 ### Step 1: Create GitHub Repository
+
 1. Go to https://github.com/new
 2. Repository name: `PlatinumRx_Assignment`
 3. Description: "Complete data analyst portfolio project with SQL, Excel, Python, and dashboards"
@@ -216,7 +227,9 @@ A **complete, professional-grade data analyst portfolio project** with end-to-en
 6. Click "Create repository"
 
 ### Step 2: Get Your Repository URL
+
 After creating, you'll see a page showing:
+
 ```
 https://github.com/YOUR_USERNAME/PlatinumRx_Assignment.git
 ```
@@ -224,6 +237,7 @@ https://github.com/YOUR_USERNAME/PlatinumRx_Assignment.git
 Copy this URL - you'll need it in the next step.
 
 ### Step 3: Push to GitHub
+
 Run these commands in PowerShell:
 
 ```powershell
@@ -241,6 +255,7 @@ git push -u origin main
 ```
 
 ### Step 4: Verify on GitHub
+
 1. Go to your repository URL on GitHub
 2. You should see all 13 files
 3. README.md should display automatically
@@ -251,6 +266,7 @@ git push -u origin main
 ## ✅ QUALITY ASSURANCE CHECKLIST
 
 ### SQL Testing
+
 - [x] Schema files create tables without errors
 - [x] Sample data inserts correctly
 - [x] All queries execute and return results
@@ -259,6 +275,7 @@ git push -u origin main
 - [x] Date filtering works correctly
 
 ### Excel Testing
+
 - [x] File opens in Excel without errors
 - [x] Both sheets (ticket, feedbacks) present
 - [x] VLOOKUP formula retrieves data correctly
@@ -267,6 +284,7 @@ git push -u origin main
 - [x] Formatting displays properly
 
 ### Python Testing
+
 - [x] All 3 scripts run without errors
 - [x] Time converter produces correct output
 - [x] Duplicate removal works for all test cases
@@ -275,6 +293,7 @@ git push -u origin main
 - [x] Error handling works for invalid inputs
 
 ### Dashboard Testing
+
 - [x] Both HTML files open in browser
 - [x] Charts render and display data
 - [x] Interactive features work (hover tooltips)
@@ -283,6 +302,7 @@ git push -u origin main
 - [x] No console errors in browser
 
 ### Documentation
+
 - [x] README is comprehensive (3000+ lines)
 - [x] All sections properly formatted
 - [x] Code examples are correct and tested
@@ -296,16 +316,16 @@ git push -u origin main
 
 This project demonstrates expertise in:
 
-| Skill | Demonstrated | Depth |
-|-------|--------------|-------|
-| SQL | ✅ | Advanced (window functions, complex joins) |
-| Excel | ✅ | Intermediate-Advanced (formulas, analysis) |
-| Python | ✅ | Intermediate-Advanced (OOP, algorithms) |
-| Data Visualization | ✅ | Intermediate (web dashboards) |
-| Problem Solving | ✅ | Professional (real-world scenarios) |
-| Documentation | ✅ | Professional (comprehensive README) |
-| Version Control | ✅ | Professional (Git best practices) |
-| Code Quality | ✅ | Professional (error handling, validation) |
+| Skill              | Demonstrated | Depth                                      |
+| ------------------ | ------------ | ------------------------------------------ |
+| SQL                | ✅           | Advanced (window functions, complex joins) |
+| Excel              | ✅           | Intermediate-Advanced (formulas, analysis) |
+| Python             | ✅           | Intermediate-Advanced (OOP, algorithms)    |
+| Data Visualization | ✅           | Intermediate (web dashboards)              |
+| Problem Solving    | ✅           | Professional (real-world scenarios)        |
+| Documentation      | ✅           | Professional (comprehensive README)        |
+| Version Control    | ✅           | Professional (Git best practices)          |
+| Code Quality       | ✅           | Professional (error handling, validation)  |
 
 ---
 
@@ -340,21 +360,25 @@ This portfolio qualifies you for:
 ## 📞 SUPPORT & TROUBLESHOOTING
 
 ### If MySQL isn't installed:
+
 1. Download: https://dev.mysql.com/downloads/mysql/
 2. Install MySQL Community Server
 3. Install MySQL Workbench for GUI
 
 ### If Python packages missing:
+
 ```bash
 pip install openpyxl    # For Excel generation
 ```
 
 ### If dashboards don't load:
+
 - Ensure you're opening HTML files directly (not via URL encoding)
 - Check browser console for errors (F12)
 - Verify Chart.js CDN is accessible (internet required)
 
 ### If Git commands fail:
+
 ```bash
 # Install Git: https://git-scm.com/download/win
 # Then retry the push commands
@@ -377,9 +401,10 @@ pip install openpyxl    # For Excel generation
 ✅ **All Phases Complete**: 0-6 (setup through documentation)  
 ✅ **Quality Assured**: All components tested and verified  
 ✅ **Git Ready**: Repository initialized with initial commit  
-✅ **Documentation**: Comprehensive README and inline comments  
+✅ **Documentation**: Comprehensive README and inline comments
 
 **You are now ready to:**
+
 1. ✅ Push to GitHub
 2. ✅ Share with hiring managers
 3. ✅ Use as portfolio piece

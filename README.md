@@ -17,14 +17,17 @@ This is a **professional data analyst portfolio project** demonstrating real-wor
 ### 📊 Project Scope
 
 **Database Implementations**:
+
 - Hotel Management System (users, bookings, items, billing)
 - Clinic Management System (sales, expenses, revenue analysis)
 
 **Queries & Analysis**:
+
 - 5 hotel business queries (last booking, billing analysis, top items, 2nd highest bill)
 - 5 clinic business queries (revenue by channel, profit/loss, profitability analysis)
 
 **Deliverables**:
+
 - 4 SQL schema + query files
 - 1 Excel spreadsheet with advanced formulas
 - 3 Python utility scripts (+ 1 enhanced data analyzer)
@@ -66,6 +69,7 @@ PlatinumRx_Assignment/
 ## 🚀 Quick Start
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/PlatinumRx_Assignment.git
 cd PlatinumRx_Assignment
@@ -74,6 +78,7 @@ cd PlatinumRx_Assignment
 ### 2. Setup SQL Database
 
 #### Using MySQL:
+
 ```bash
 # Connect to MySQL
 mysql -u root -p
@@ -92,11 +97,13 @@ SOURCE SQL/04_Clinic_Queries.sql;
 ```
 
 #### Using MySQL Workbench:
+
 1. Open MySQL Workbench
 2. File → Open SQL Script → Select `.sql` files
 3. Execute scripts in order
 
 ### 3. View Excel Analysis
+
 ```bash
 # Generate Excel file
 cd Spreadsheets
@@ -107,6 +114,7 @@ start Ticket_Analysis.xlsx
 ```
 
 ### 4. Run Python Scripts
+
 ```bash
 cd Python
 
@@ -121,6 +129,7 @@ python 03_Data_Analysis.py
 ```
 
 ### 5. View Interactive Dashboards
+
 ```bash
 # Generate dashboards
 cd Dashboard
@@ -138,12 +147,14 @@ start Clinic_Dashboard.html
 ### Hotel Management System
 
 **Tables**:
+
 - `users`: Guest information
 - `bookings`: Booking records with dates
 - `items`: Services/products offered (rooms, food, etc.)
 - `booking_commercials`: Junction table linking bookings to items with quantities
 
 **Sample Data**:
+
 ```
 Users: Ravi, Arun
 Bookings: 3 bookings in November 2021
@@ -161,10 +172,12 @@ Items: Room (₹500), Food (₹200), Laundry (₹100)
 ### Clinic Management System
 
 **Tables**:
+
 - `clinic_sales`: Sales transactions by channel (Online/Offline)
 - `expenses`: Daily expenses
 
 **Sample Data**:
+
 ```
 Sales: 8 transactions in November 2021 (Online & Offline channels)
 Expenses: 8 daily expense records
@@ -206,11 +219,13 @@ Profit: ₹12,800
 | Same Hour? | `=IF(HOUR(C2)=HOUR(D2),"Yes","No")` | Checks if same hour |
 
 **Summary Row**:
+
 ```
 Resolved Same Day & Hour: =COUNTIFS(E2:E6,"Yes",F2:F6,"Yes")
 ```
 
 **Concepts Demonstrated**:
+
 - ✅ VLOOKUP: Cross-sheet data retrieval
 - ✅ Date comparison: INT(), HOUR() functions
 - ✅ Conditional logic: IF statements
@@ -225,6 +240,7 @@ Resolved Same Day & Hour: =COUNTIFS(E2:E6,"Yes",F2:F6,"Yes")
 Converts minutes to human-readable format.
 
 **Usage**:
+
 ```python
 from Time_Converter import convert_minutes
 
@@ -234,6 +250,7 @@ print(convert_minutes(180))  # Output: "3 hrs"
 ```
 
 **Features**:
+
 - ✅ Input validation (type & range checking)
 - ✅ Edge case handling (0 minutes, no remainder, etc.)
 - ✅ Error handling with descriptive messages
@@ -244,6 +261,7 @@ print(convert_minutes(180))  # Output: "3 hrs"
 Removes duplicate characters while preserving order.
 
 **Usage**:
+
 ```python
 from Remove_Duplicates import remove_duplicates_dict_order
 
@@ -260,6 +278,7 @@ print(remove_duplicates_dict_order("bookkeeping"))  # Output: "bokeping"
 | Dict Order | O(n) | O(n) | **Fastest** ⭐ |
 
 **Features**:
+
 - ✅ Multiple algorithms with complexity analysis
 - ✅ Performance benchmarking (10K iterations)
 - ✅ Error handling and validation
@@ -270,6 +289,7 @@ print(remove_duplicates_dict_order("bookkeeping"))  # Output: "bokeping"
 Enhanced data processing and analysis utility.
 
 **Usage**:
+
 ```python
 from Data_Analysis import DataAnalyzer
 
@@ -291,6 +311,7 @@ analyzer.export_to_csv("hotel_data.csv")
 ```
 
 **Features**:
+
 - ✅ Data aggregation (sum, average, min, max, count)
 - ✅ Filtering by field values
 - ✅ Grouping and categorization
@@ -305,6 +326,7 @@ analyzer.export_to_csv("hotel_data.csv")
 ### Interactive Visualizations
 
 **Hotel Dashboard** (`Hotel_Dashboard.html`):
+
 - 📊 Bookings by Guest (Doughnut chart)
 - 💰 Revenue by Guest (Bar chart)
 - 📦 Items Ordered (Bar chart)
@@ -312,6 +334,7 @@ analyzer.export_to_csv("hotel_data.csv")
 - 🎯 Key Metrics: Total bookings, revenue, guests, avg booking value
 
 **Clinic Dashboard** (`Clinic_Dashboard.html`):
+
 - 📊 Revenue by Sales Channel (Pie chart: Online vs Offline)
 - 💵 Financial Summary (Revenue, Expenses, Profit)
 - 📈 Daily Revenue vs Expenses (Dual-axis trend line)
@@ -319,6 +342,7 @@ analyzer.export_to_csv("hotel_data.csv")
 - 🎯 Key Metrics: Total revenue, expenses, net profit, profit margin %
 
 **Technology**:
+
 - Chart.js 3.9.1 (interactive charts)
 - Responsive CSS Grid layout
 - Modern gradient backgrounds
@@ -326,6 +350,7 @@ analyzer.export_to_csv("hotel_data.csv")
 - Zero dependencies (CDN loaded)
 
 **Features**:
+
 - ✅ Interactive tooltips on hover
 - ✅ Responsive design (scales to any screen size)
 - ✅ Professional styling
@@ -336,14 +361,14 @@ analyzer.export_to_csv("hotel_data.csv")
 
 ## 🛠 Tools & Technologies
 
-| Tool | Purpose | Version |
-|------|---------|---------|
-| **MySQL** | Relational database | 8.0+ |
-| **Python** | Scripting & data processing | 3.8+ |
-| **openpyxl** | Excel file generation | 3.8+ |
-| **Chart.js** | Dashboard visualizations | 3.9.1 |
-| **Excel** | Spreadsheet analysis | Any |
-| **Git** | Version control | 2.0+ |
+| Tool         | Purpose                     | Version |
+| ------------ | --------------------------- | ------- |
+| **MySQL**    | Relational database         | 8.0+    |
+| **Python**   | Scripting & data processing | 3.8+    |
+| **openpyxl** | Excel file generation       | 3.8+    |
+| **Chart.js** | Dashboard visualizations    | 3.9.1   |
+| **Excel**    | Spreadsheet analysis        | Any     |
+| **Git**      | Version control             | 2.0+    |
 
 ## 📋 Requirements
 
@@ -358,6 +383,7 @@ Modern web browser (for dashboards)
 ## 💾 Installation
 
 ### Python Dependencies
+
 ```bash
 pip install openpyxl  # For Excel generation
 ```
@@ -406,6 +432,7 @@ Before submission, ensure:
 ## 📝 Sample Output
 
 ### SQL Query Result Example (Q2: Billing in November)
+
 ```
 booking_id | user_name | booking_date | total_bill
 -----------|-----------|--------------|----------
@@ -415,6 +442,7 @@ booking_id | user_name | booking_date | total_bill
 ```
 
 ### Excel Summary
+
 ```
 Feedback Summary (November 2021):
 - Total Feedback Records: 5
@@ -423,6 +451,7 @@ Feedback Summary (November 2021):
 ```
 
 ### Python Output
+
 ```
 Time Converter(130 minutes) → "2 hrs 10 minutes" ✓
 Remove Duplicates("programming") → "progamin" ✓
@@ -436,6 +465,7 @@ Data Analysis: 5 records analyzed, exported to JSON & CSV ✓
 By completing this project, you've demonstrated:
 
 ### SQL Mastery
+
 - ✅ Complex JOINs across 4+ tables
 - ✅ Advanced aggregation (GROUP BY, HAVING)
 - ✅ Window functions (RANK() OVER)
@@ -443,6 +473,7 @@ By completing this project, you've demonstrated:
 - ✅ Real-world business logic implementation
 
 ### Excel Proficiency
+
 - ✅ Cross-sheet data retrieval (VLOOKUP)
 - ✅ Date/time comparison functions
 - ✅ Multi-criteria aggregation (COUNTIFS)
@@ -450,6 +481,7 @@ By completing this project, you've demonstrated:
 - ✅ Professional spreadsheet design
 
 ### Python Competency
+
 - ✅ Input validation and error handling
 - ✅ Object-oriented programming (classes, methods)
 - ✅ Algorithm optimization (performance analysis)
@@ -457,6 +489,7 @@ By completing this project, you've demonstrated:
 - ✅ File I/O and data export (JSON, CSV)
 
 ### Data Visualization
+
 - ✅ Interactive web-based dashboards
 - ✅ Multiple chart types (pie, bar, line, doughnut)
 - ✅ Responsive web design
@@ -472,9 +505,10 @@ This project is suitable for:
 ✅ **Business Analyst Internships**  
 ✅ **Freelance Data Analysis** projects  
 ✅ **Career Transition** into analytics  
-✅ **Bootcamp Portfolio** projects  
+✅ **Bootcamp Portfolio** projects
 
 **Why it stands out**:
+
 - Complete end-to-end implementation (not just theory)
 - Multiple technologies integrated (SQL, Excel, Python, Web)
 - Professional-grade code with documentation
@@ -486,18 +520,21 @@ This project is suitable for:
 ## 🎓 Educational Value
 
 **For Beginners**:
+
 - Learn SQL from basics to advanced (window functions)
 - Understand Excel beyond basic formulas
 - Python fundamentals and best practices
 - How data flows from database to visualization
 
 **For Intermediate Users**:
+
 - Optimize query performance
 - Compare algorithm implementations
 - Build scalable data pipelines
 - Create professional dashboards
 
 **For Advanced Users**:
+
 - Extend with real data sources
 - Integrate with BI tools (Tableau, Power BI)
 - Build REST APIs around data
@@ -508,19 +545,23 @@ This project is suitable for:
 ## 📚 Resources & References
 
 ### SQL Learning
+
 - [MySQL Official Documentation](https://dev.mysql.com/doc/)
 - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
 - [SQL Window Functions Guide](https://www.sqlshack.com/en/sql-window-functions-overview/)
 
 ### Python Learning
+
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Real Python Tutorials](https://realpython.com/)
 
 ### Excel Learning
+
 - [Microsoft Excel Functions](https://support.microsoft.com/en-us/excel)
 - [Excel VLOOKUP Guide](https://support.microsoft.com/en-us/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a2)
 
 ### Dashboard Tools
+
 - [Chart.js Documentation](https://www.chartjs.org/)
 - [Web Design Principles](https://www.nngroup.com/articles/)
 
@@ -531,6 +572,7 @@ This project is suitable for:
 While this is a portfolio project, suggestions and improvements are welcome!
 
 To contribute:
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/improvement`)
 3. Commit changes (`git commit -m 'Add feature'`)
@@ -542,6 +584,7 @@ To contribute:
 ## 📞 Contact & Support
 
 **For questions about this project**:
+
 - 📧 Email: [YOUR_EMAIL]
 - 🔗 GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
 - 💼 LinkedIn: [YOUR_LINKEDIN_PROFILE]
@@ -601,13 +644,13 @@ copies or substantial portions of the Software.
 
 ## 📊 Project Statistics
 
-| Component | Count | Lines of Code | Complexity |
-|-----------|-------|---------------|-----------|
-| SQL Files | 4 | ~200 | Advanced |
-| Excel Formulas | 4 | - | Intermediate |
-| Python Scripts | 3 | ~600 | Advanced |
-| Dashboards | 2 | ~400 | Intermediate |
-| **Total** | **13** | **~1,200** | **Professional** |
+| Component      | Count  | Lines of Code | Complexity       |
+| -------------- | ------ | ------------- | ---------------- |
+| SQL Files      | 4      | ~200          | Advanced         |
+| Excel Formulas | 4      | -             | Intermediate     |
+| Python Scripts | 3      | ~600          | Advanced         |
+| Dashboards     | 2      | ~400          | Intermediate     |
+| **Total**      | **13** | **~1,200**    | **Professional** |
 
 ---
 
