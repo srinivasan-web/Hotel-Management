@@ -17,6 +17,7 @@ https://github.com/srinivasan-web/Hotel-Management
 **Already Created & Live ✅**
 
 **Contains:**
+
 - All SQL files (4 files)
 - All Python scripts (3 files)
 - Excel file + generator
@@ -43,16 +44,19 @@ https://github.com/srinivasan-web/Hotel-Management
 7. Copy the link
 
 **Your Google Sheets Link Format:**
+
 ```
 https://docs.google.com/spreadsheets/d/[DOCUMENT_ID]/edit?usp=sharing
 ```
 
 **Example:**
+
 ```
 https://docs.google.com/spreadsheets/d/1j7X-K9L2mPqRsT4uVwXyZ_a1b2c3d4e5f6g7h8i9/edit?usp=sharing
 ```
 
 **Paste your link below:**
+
 ```
 [YOUR GOOGLE SHEETS LINK HERE]
 ```
@@ -66,6 +70,7 @@ https://docs.google.com/spreadsheets/d/1j7X-K9L2mPqRsT4uVwXyZ_a1b2c3d4e5f6g7h8i9
 **How to Record & Upload (20 minutes total):**
 
 #### Record (10 minutes):
+
 1. Use Windows Game Bar (Windows Key + G) or OBS Studio
 2. Record yourself showing:
    - GitHub repository (1 min)
@@ -77,6 +82,7 @@ https://docs.google.com/spreadsheets/d/1j7X-K9L2mPqRsT4uVwXyZ_a1b2c3d4e5f6g7h8i9
    - Explaining what you built (optional)
 
 #### Upload (10 minutes):
+
 1. Go to https://drive.google.com/
 2. Click "New" → "File upload"
 3. Upload your video (MP4 or MOV)
@@ -86,16 +92,19 @@ https://docs.google.com/spreadsheets/d/1j7X-K9L2mPqRsT4uVwXyZ_a1b2c3d4e5f6g7h8i9
 7. Copy the link
 
 **Your Google Drive Video Link Format:**
+
 ```
 https://drive.google.com/file/d/[FILE_ID]/view?usp=sharing
 ```
 
 **Example:**
+
 ```
 https://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7/view?usp=sharing
 ```
 
 **Paste your link below:**
+
 ```
 [YOUR GOOGLE DRIVE VIDEO LINK HERE]
 ```
@@ -107,12 +116,14 @@ https://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7/view?usp=shari
 Before submitting, verify:
 
 ### GitHub Repository ✅
+
 - [ ] Link works and is accessible
 - [ ] All files visible
 - [ ] README.md displays on homepage
 - [ ] Access is PUBLIC (not private)
 
 ### Google Sheets ✅
+
 - [ ] Link created and uploaded
 - [ ] Both sheets present (ticket & feedbacks)
 - [ ] Formulas visible in cells
@@ -120,6 +131,7 @@ Before submitting, verify:
 - [ ] Can access without login
 
 ### Screen Recording ✅
+
 - [ ] Video recorded (5-10 minutes)
 - [ ] Audio is clear
 - [ ] All components demonstrated
@@ -156,28 +168,31 @@ Screen Recording (GitHub Drive):
 
 ### Link Status Checklist
 
-| Component | Link | Status | Action |
-|-----------|------|--------|--------|
-| GitHub | https://github.com/srinivasan-web/Hotel-Management | ✅ READY | Use as-is |
-| Google Sheets | [Empty] | ⏳ PENDING | Follow steps above |
-| Screen Recording | [Empty] | ⏳ PENDING | Record & upload |
+| Component        | Link                                               | Status     | Action             |
+| ---------------- | -------------------------------------------------- | ---------- | ------------------ |
+| GitHub           | https://github.com/srinivasan-web/Hotel-Management | ✅ READY   | Use as-is          |
+| Google Sheets    | [Empty]                                            | ⏳ PENDING | Follow steps above |
+| Screen Recording | [Empty]                                            | ⏳ PENDING | Record & upload    |
 
 ---
 
 ## 📞 TROUBLESHOOTING LINKS
 
 ### GitHub Link Issues
+
 - ✅ Link already works
 - If not visible: Try refreshing page (F5)
 - If still not working: Check browser console
 
 ### Google Sheets Link Issues
+
 - Make sure you share AFTER uploading
 - Don't copy from address bar, use Share button
 - Permission must be "Viewer" not "Restricted"
 - Test with incognito window
 
 ### Drive Video Link Issues
+
 - Make sure video finished uploading
 - Permission must be "Viewer" not "Restricted"
 - Link format: `/view?usp=sharing` not `/edit?usp=sharing`
@@ -188,12 +203,14 @@ Screen Recording (GitHub Drive):
 ## 🚀 NEXT STEPS
 
 ### TODAY:
+
 1. ✅ Copy GitHub link: https://github.com/srinivasan-web/Hotel-Management
 2. ⏳ Create Google Sheets (follow steps above)
 3. ⏳ Record screen video (10 min max)
 4. ⏳ Upload video to Google Drive
 
 ### THEN:
+
 1. Verify all 3 links work
 2. Test each link from different network
 3. Compile all 3 links
@@ -204,6 +221,7 @@ Screen Recording (GitHub Drive):
 ## 💡 WHAT HAPPENS WHEN YOU SUBMIT
 
 **Reviewers will:**
+
 1. Visit your GitHub repository
    - See all your code and documentation
    - Run SQL queries themselves
@@ -221,12 +239,14 @@ Screen Recording (GitHub Drive):
 ## ✅ YOU'RE ALL SET!
 
 Your project is:
+
 - ✅ Fully developed and tested
 - ✅ Documented with 4,000+ lines
 - ✅ Live on GitHub
 - ✅ Ready for submission
 
 **Just need to:**
+
 1. Create Google Sheets (5 min)
 2. Record screen (10 min)
 3. Upload video (10 min)
@@ -273,7 +293,7 @@ You now have everything needed for a professional submission!
 
 **GitHub**: https://github.com/srinivasan-web/Hotel-Management ✅  
 **Google Sheets**: [Create & paste your link]  
-**Screen Recording**: [Record & paste your link]  
+**Screen Recording**: [Record & paste your link]
 
 ---
 

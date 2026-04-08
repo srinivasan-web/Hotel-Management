@@ -23,6 +23,7 @@ https://github.com/srinivasan-web/Hotel-Management
 ```
 
 **What it contains:**
+
 - ✅ `SQL/` folder — 4 SQL scripts (schemas + queries)
 - ✅ `Python/` folder — 3 Python scripts
 - ✅ `Spreadsheets/` folder — Excel file + generator script
@@ -60,6 +61,7 @@ https://github.com/srinivasan-web/Hotel-Management
    ```
 
 **Verification Checklist for Google Sheet:**
+
 - [ ] Sheet 1: "ticket" with 5 sample records
 - [ ] Sheet 2: "feedbacks" with formulas visible
 - [ ] Column C: VLOOKUP formula (shows dates)
@@ -69,6 +71,7 @@ https://github.com/srinivasan-web/Hotel-Management
 - [ ] Sharing permission: "Anyone with link - Viewer" ✅
 
 **Share this link:**
+
 ```
 [Your Google Sheets Link Here]
 ```
@@ -80,11 +83,13 @@ https://github.com/srinivasan-web/Hotel-Management
 If you prefer to submit the Excel file directly:
 
 **File Location:**
+
 ```
 h:\hotel-menagement\PlatinumRx_Assignment\Spreadsheets\Ticket_Analysis.xlsx
 ```
 
 **Access Method:**
+
 - Upload to GitHub in Spreadsheets folder
 - Already uploaded! ✅
 
@@ -108,6 +113,7 @@ h:\hotel-menagement\PlatinumRx_Assignment\Spreadsheets\Ticket_Analysis.xlsx
 ```
 
 **Using OBS Studio (FREE Alternative):**
+
 ```
 1. Download: https://obsproject.com/download
 2. Install and open OBS
@@ -122,11 +128,13 @@ h:\hotel-menagement\PlatinumRx_Assignment\Spreadsheets\Ticket_Analysis.xlsx
 Record yourself demonstrating these sections:
 
 #### **Section 1: Project Overview (1 minute)**
+
 - Show GitHub repository
 - Click through all folders (SQL, Python, Spreadsheets, Dashboard)
 - Explain: "This is a complete data analyst portfolio with SQL, Excel, Python, and dashboards"
 
 #### **Section 2: SQL Implementation (2 minutes)**
+
 - Open MySQL Workbench
 - Show database tables created
 - Run query: `SELECT COUNT(*) FROM users;` → Show 2 users
@@ -135,6 +143,7 @@ Record yourself demonstrating these sections:
 - Explain: "Complex queries with JOINs, GROUP BY, and window functions"
 
 #### **Section 3: Excel Analysis (1 minute)**
+
 - Open `Ticket_Analysis.xlsx`
 - Show both sheets (ticket & feedbacks)
 - Click on formula cells to show:
@@ -144,6 +153,7 @@ Record yourself demonstrating these sections:
 - Explain: "VLOOKUP retrieves dates, if checks same day/hour, COUNTIFS counts results"
 
 #### **Section 4: Python Scripts (2 minutes)**
+
 - Open PowerShell/Command Prompt
 - Run: `python Python/01_Time_Converter.py`
 - Show output: "2 hrs 10 minutes" ✓
@@ -154,6 +164,7 @@ Record yourself demonstrating these sections:
 - Explain: "Three production-quality Python utilities"
 
 #### **Section 5: Interactive Dashboards (2 minutes)**
+
 - Run: `python Dashboard/generate_dashboards.py`
 - Open Hotel_Dashboard.html in browser
 - Click/hover over charts to show interactivity
@@ -163,17 +174,20 @@ Record yourself demonstrating these sections:
 - Explain: "Interactive Chart.js dashboards with real-time data"
 
 #### **Section 6: Documentation (1 minute)**
+
 - Show README.md (scroll through sections)
 - Show HOW_TO_RUN.md
 - Show QUICK_START.md
 - Explain: "Complete documentation with 4,000+ lines"
 
 #### **Section 7: Deployment (1 minute)**
+
 - Show GitHub commit history
 - Show 5 commits with meaningful messages
 - Explain: "Professional Git workflow with version control"
 
 #### **Optional: Key Learnings (1 minute)**
+
 - Explain SQL complexity: "Window functions, complex JOINs, real-world business logic"
 - Python: "OOP design, algorithm optimization, performance analysis"
 - Excel: "Advanced formulas with cross-sheet references"
@@ -203,6 +217,7 @@ Record yourself demonstrating these sections:
    ```
 
 **Verification:**
+
 - [ ] Video plays without errors
 - [ ] Audio is clear
 - [ ] All sections demonstrated
@@ -210,6 +225,7 @@ Record yourself demonstrating these sections:
 - [ ] Can access and play on different network (test with phone data)
 
 **Share this link:**
+
 ```
 [Your Google Drive Video Link Here]
 ```
@@ -373,21 +389,25 @@ COMPLETED PHASES
 ## 🚀 FINAL STEPS TO SUBMIT
 
 ### Step 1: Create Google Sheets (5 minutes)
+
 1. Upload Ticket_Analysis.xlsx to Google Sheets
 2. Set sharing to "Anyone with link - Viewer"
 3. Copy shareable link
 
 ### Step 2: Record Screen (10-15 minutes)
+
 1. Use Windows Game Bar or OBS Studio
 2. Record all 7 sections
 3. Save video file
 
 ### Step 3: Upload Video (15-30 minutes)
+
 1. Upload to Google Drive
 2. Set sharing to "Anyone with link - Viewer"
 3. Copy shareable link
 
 ### Step 4: Compile Final Submission
+
 1. GitHub: https://github.com/srinivasan-web/Hotel-Management ✅
 2. Google Sheets: [Paste your link]
 3. Screen Recording: [Paste your link]
@@ -428,22 +448,26 @@ dir /s /b | find /c ""                  # Should be ~20+ files total
 ## 📞 TROUBLESHOOTING SUBMISSION
 
 ### "Can't create Google Sheet link"
+
 - Use https://sheets.google.com/ not Docs
 - File → Upload → Select Ticket_Analysis.xlsx
 - Click "Convert to Google Sheets"
 
 ### "Video won't upload to Drive"
+
 - File should be MP4 or MOV format
 - Keep under 500 MB (most are 50-200 MB)
 - Use good internet connection
 - Try uploading from different browser
 
 ### "Link says 'File not found'"
+
 - Verify sharing is set to "Anyone with link"
 - Not "Restricted" or "Request access"
 - Try accessing from incognito window
 
 ### "GitHub repository not showing files"
+
 - Verify git push was successful
 - Try refreshing GitHub page (F5)
 - Files should appear under specific folders
@@ -509,6 +533,7 @@ READY TO SUBMIT ✅
 Once you have all three links, you're ready to submit!
 
 This portfolio project demonstrates:
+
 - ✅ Advanced SQL (window functions, complex JOINs)
 - ✅ Excel mastery (VLOOKUP, IF, COUNTIFS)
 - ✅ Python excellence (OOP, algorithms, optimization)
