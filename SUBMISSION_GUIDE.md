@@ -73,7 +73,7 @@ https://github.com/srinivasan-web/Hotel-Management
 **Share this link:**
 
 ```
-[Your Google Sheets Link Here]
+https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing
 ```
 
 ---

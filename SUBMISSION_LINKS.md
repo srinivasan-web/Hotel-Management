@@ -31,35 +31,22 @@ https://github.com/srinivasan-web/Hotel-Management
 
 ### 📊 LINK #2: GOOGLE SHEETS (Spreadsheet)
 
-**Status**: ⏳ YOU NEED TO CREATE THIS
+**Status**: ✅ READY TO USE
 
-**How to Create (5 minutes):**
-
-1. Go to https://sheets.google.com/
-2. Click "New" → "File upload"
-3. Upload: `Spreadsheets/Ticket_Analysis.xlsx`
-4. Click "Convert to Google Sheets" when prompted
-5. Right-click file → "Share"
-6. Change access to: **"Anyone with the link"** → **"Viewer"**
-7. Copy the link
-
-**Your Google Sheets Link Format:**
+**Your Google Sheets Link:**
 
 ```
-https://docs.google.com/spreadsheets/d/[DOCUMENT_ID]/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing
 ```
 
-**Example:**
+**Already Created & Live ✅**
 
-```
-https://docs.google.com/spreadsheets/d/1j7X-K9L2mPqRsT4uVwXyZ_a1b2c3d4e5f6g7h8i9/edit?usp=sharing
-```
+**Contains:**
 
-**Paste your link below:**
-
-```
-[YOUR GOOGLE SHEETS LINK HERE]
-```
+- Ticket Analysis sheet with VLOOKUP formulas
+- Feedbacks sheet with IF and COUNTIFS formulas
+- Professional formatting and data validation
+- Public access enabled
 
 ---
 
@@ -124,11 +111,11 @@ Before submitting, verify:
 
 ### Google Sheets ✅
 
-- [ ] Link created and uploaded
-- [ ] Both sheets present (ticket & feedbacks)
-- [ ] Formulas visible in cells
-- [ ] Sharing set to "Viewer"
-- [ ] Can access without login
+- [x] Link created and uploaded
+- [x] Both sheets present (ticket & feedbacks)
+- [x] Formulas visible in cells
+- [x] Sharing set to "Viewer"
+- [x] Can access without login
 
 ### Screen Recording ✅
 
@@ -154,7 +141,7 @@ GitHub Repository:
 https://github.com/srinivasan-web/Hotel-Management
 
 Google Sheets (Spreadsheet):
-[YOUR GOOGLE SHEETS LINK]
+https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing
 
 Screen Recording (GitHub Drive):
 [YOUR GOOGLE DRIVE VIDEO LINK]
@@ -168,11 +155,11 @@ Screen Recording (GitHub Drive):
 
 ### Link Status Checklist
 
-| Component        | Link                                               | Status     | Action             |
-| ---------------- | -------------------------------------------------- | ---------- | ------------------ |
-| GitHub           | https://github.com/srinivasan-web/Hotel-Management | ✅ READY   | Use as-is          |
-| Google Sheets    | [Empty]                                            | ⏳ PENDING | Follow steps above |
-| Screen Recording | [Empty]                                            | ⏳ PENDING | Record & upload    |
+| Component        | Link                                                                                                 | Status     | Action          |
+| ---------------- | ---------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| GitHub           | https://github.com/srinivasan-web/Hotel-Management                                                   | ✅ READY   | Use as-is       |
+| Google Sheets    | https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing | ✅ READY   | Use as-is       |
+| Screen Recording | [Empty]                                                                                              | ⏳ PENDING | Record & upload |
 
 ---
 
@@ -263,7 +250,7 @@ BEFORE SUBMITTING:
 
 Links:
   ☐ GitHub URL: https://github.com/srinivasan-web/Hotel-Management
-  ☐ Google Sheets: [Your link]
+  ☐ Google Sheets: https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing
   ☐ Screen Recording: [Your link]
 
 Verification:
@@ -292,7 +279,7 @@ READY TO SUBMIT ✅
 You now have everything needed for a professional submission!
 
 **GitHub**: https://github.com/srinivasan-web/Hotel-Management ✅  
-**Google Sheets**: [Create & paste your link]  
+**Google Sheets**: https://docs.google.com/spreadsheets/d/1oNXMa01uLzADRlXZQ8Hs1waXQNjaIPHh9X-MqSPdfRw/edit?usp=sharing ✅  
 **Screen Recording**: [Record & paste your link]
 
 ---
