@@ -1,0 +1,6 @@
+sale_id,amount,channel,date
+1,5000,online,2021-11-01
+2,3000,offline,2021-11-02
+3,4500,online,2021-11-05
+4,6000,online,2021-11-10
+5,2500,offline,2021-11-15

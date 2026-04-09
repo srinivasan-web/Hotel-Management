@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "total_records": 5,
+    "dataset_name": "Clinic Sales",
+    "created_at": "2026-04-09 10:54:30",
+    "fields": [
+      "sale_id",
+      "amount",
+      "channel",
+      "date"
+    ]
+  },
+  "records": [
+    {
+      "sale_id": 1,
+      "amount": 5000,
+      "channel": "online",
+      "date": "2021-11-01"
+    },
+    {
+      "sale_id": 2,
+      "amount": 3000,
+      "channel": "offline",
+      "date": "2021-11-02"
+    },
+    {
+      "sale_id": 3,
+      "amount": 4500,
+      "channel": "online",
+      "date": "2021-11-05"
+    },
+    {
+      "sale_id": 4,
+      "amount": 6000,
+      "channel": "online",
+      "date": "2021-11-10"
+    },
+    {
+      "sale_id": 5,
+      "amount": 2500,
+      "channel": "offline",
+      "date": "2021-11-15"
+    }
+  ]
+}

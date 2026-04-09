@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "total_records": 5,
+    "dataset_name": "Hotel Revenue",
+    "created_at": "2026-04-09 10:54:30",
+    "fields": [
+      "booking_id",
+      "user",
+      "amount",
+      "channel"
+    ]
+  },
+  "records": [
+    {
+      "booking_id": 1,
+      "user": "Ravi",
+      "amount": 1500,
+      "channel": "online"
+    },
+    {
+      "booking_id": 2,
+      "user": "Arun",
+      "amount": 2000,
+      "channel": "offline"
+    },
+    {
+      "booking_id": 3,
+      "user": "Ravi",
+      "amount": 1200,
+      "channel": "online"
+    },
+    {
+      "booking_id": 4,
+      "user": "Priya",
+      "amount": 3000,
+      "channel": "offline"
+    },
+    {
+      "booking_id": 5,
+      "user": "Arun",
+      "amount": 1500,
+      "channel": "online"
+    }
+  ]
+}
